@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Evaluación de conocimientos sobre ejecución del muestreo de suelos y manejo técnico de insumos agrícolas',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar los conocimientos del aprendiz sobre los procedimientos técnicos para la ejecución del muestreo de suelos agrícolas, el manejo, conservación y transporte de muestras, la interpretación de recomendaciones técnicas derivadas del análisis de suelo, y el cálculo y aplicación de correctivos y fertilizantes de acuerdo con criterios agronómicos.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,477 +30,674 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el objetivo principal de realizar correctamente el muestreo de suelos?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Reducir el tiempo de trabajo en campo.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Obtener una muestra representativa para el análisis de laboratorio.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Disminuir el uso de herramientas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Incrementar la compactación del suelo.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
         },
+
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: 'Antes de extraer una submuestra se debe:',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Humedecer el suelo artificialmente.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Aplicar fertilizante al punto de muestreo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto:
+                'Retirar los residuos superficiales del sitio de muestreo.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Mezclar el suelo con agua.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
         },
+
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: 'Una submuestra corresponde a:',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Toda la muestra enviada al laboratorio.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
+                'Una pequeña porción de suelo tomada en un punto del lote.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'El análisis realizado por el laboratorio.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'El fertilizante recomendado.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
         },
+
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Seleccionar y editar capas.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: 'La muestra compuesta se obtiene mediante:',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'La mezcla uniforme de varias submuestras.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'La mezcla de diferentes fertilizantes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La toma de una única muestra profunda.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La combinación de muestras de distintos cultivos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+        },
+
+        {
+          id: 5,
+          texto: '¿Cuál es la finalidad de homogeneizar la muestra?',
+          imagen: '@/assets/actividad/imagen05.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar el peso de la muestra.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Uniformar el material para mejorar su representatividad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Secar completamente el suelo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir la materia orgánica.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+        },
+
+        {
+          id: 6,
+          texto:
+            '¿Qué procedimiento permite reducir el volumen de una muestra sin perder representatividad?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Filtrado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Tamizado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Cuarteo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Compactación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+        },
+
+        {
+          id: 7,
+          texto:
+            '¿Cuál de los siguientes datos debe aparecer en el rótulo de una muestra?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Precio del fertilizante.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Código de la muestra.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Nombre del laboratorio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Tipo de maquinaria utilizada.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+        },
+
+        {
+          id: 8,
+          texto: 'El principal objetivo del rotulado es:',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mejorar el color de la muestra.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Facilitar el secado del suelo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Incrementar la fertilidad del suelo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Garantizar la identificación y la trazabilidad de la muestra.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+        },
+
+        {
+          id: 9,
+          texto: 'Durante el transporte de las muestras es importante:',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mezclar diferentes muestras en una misma bolsa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Exponerlas al sol para secarlas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Abrir constantemente los empaques.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Protegerlas de contaminación y humedad excesiva.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+        },
+
+        {
+          id: 10,
+          texto: '¿Cuál es el propósito principal del análisis de suelo?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Medir el rendimiento del cultivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Determinar las características químicas y la disponibilidad de nutrientes del suelo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Calcular la producción agrícola.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Identificar plagas presentes.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+        },
+        {
+          id: 11,
+          texto: 'Los correctivos agrícolas se utilizan principalmente para:',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar la humedad del suelo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Controlar malezas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Corregir limitaciones químicas del suelo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Aumentar el tamaño de las semillas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+        },
+        {
+          id: 12,
+          texto: '¿Cuál de los siguientes productos es un correctivo calcáreo?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Urea',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Cloruro de potasio',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Cal dolomítica',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Fosfato diamónico',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+        },
+        {
+          id: 13,
+          texto: 'La función principal de un fertilizante es:',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mejorar únicamente la textura del suelo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Aportar nutrientes esenciales para el cultivo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar microorganismos del suelo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir la humedad del terreno.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Cuál de los siguientes nutrientes favorece principalmente el crecimiento vegetativo?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Fósforo',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Potasio',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Calcio',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Nitrógeno',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            'Para calcular correctamente la cantidad total de fertilizante se requiere conocer:',
+          imagen: '@/assets/actividad/imagen05.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'El color del suelo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El área del lote y la dosis recomendada.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'La temperatura ambiente únicamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El número de trabajadores.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+        },
+        {
+          id: 16,
+          texto:
+            'Si la recomendación técnica es aplicar 250 kg/ha y el lote tiene 4 ha, la cantidad requerida es:',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: '500 kg.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: '1.000 kg.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: '750 kg.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '1.250 kg.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué método de aplicación consiste en distribuir el fertilizante sobre toda la superficie del terreno?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Al voleo.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'En bandas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Fertirriego.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Localizada.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+        },
+        {
+          id: 18,
+          texto: 'La aplicación localizada se caracteriza por:',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Distribuir el fertilizante uniformemente sobre todo el lote.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Colocar el fertilizante cerca de la zona radicular.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Aplicarlo únicamente mediante riego.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Mezclarlo con el suelo de toda la parcela.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Cuál es uno de los beneficios de aplicar correctamente los insumos agrícolas?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar las pérdidas por lixiviación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Mejorar el aprovechamiento de los nutrientes por el cultivo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Aumentar el desperdicio de fertilizantes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir el crecimiento radicular.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+        },
+        {
+          id: 20,
+          texto:
+            'La interpretación de las recomendaciones técnicas del análisis de suelo permite:',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Elegir únicamente el laboratorio de análisis.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Determinar el precio de venta de la cosecha.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Clasificar el suelo únicamente por su color.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Definir el manejo adecuado de correctivos y fertilizantes según las condiciones del suelo y el cultivo.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre la ejecución del muestreo de suelos y manejo técnico de insumos agrícolas.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
