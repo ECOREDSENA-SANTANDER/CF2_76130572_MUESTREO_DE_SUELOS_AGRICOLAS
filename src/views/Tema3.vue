@@ -7,7 +7,7 @@
         span 3
       h1 Interpretación de recomendaciones técnicas para el manejo del suelo
 
-    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/t3/img01.png')})`}"
       )
@@ -39,7 +39,7 @@
           figure
             img(src='@/assets/curso/temas/t3/aco1.png', alt='')
 
-      .row.justify-content-center(titulo="Información general del reporte")
+      .row.justify-content-center(titulo="Información general del reporte")(data-aos="zoom-in-left")
         .col-lg-6.mb-4.mb-md-0
           p Antes de interpretar los resultados analíticos, es importante verificar que la información de identificación de la muestra corresponda al lote evaluado. Generalmente el reporte contiene:
 
@@ -54,13 +54,12 @@
           p.mb-3 • Laboratorio responsable.
 
           figure
-            img(src='@/assets/curso/temas/t3/aco2.png', alt='')
+            img.mb-3(src='@/assets/curso/temas/t3/aco2.png', alt='')
 
         .col-lg-6
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Tabla 5.
             span Información general del reporte de laboratorio
-
           .tabla-a.color-primario
             table
               thead
@@ -92,7 +91,7 @@
                   td Laboratorio responsable
                   td Garantiza la trazabilidad y confiabilidad del análisis.
 
-      .row.justify-content-center(titulo="Principales parámetros evaluados")
+      .row.justify-content-center(titulo="Principales parámetros evaluados")(data-aos="zoom-in-left")
         .col-lg-6.mb-4.mb-md-0
           p Aunque los laboratorios pueden incluir diferentes análisis, normalmente los reportes presentan información relacionada con:
 
@@ -107,7 +106,7 @@
 
           p Nota: cada uno de estos parámetros permite evaluar una condición específica del suelo y establecer posibles limitantes para el crecimiento de los cultivos.
 
-          figure
+          figure.mb-3
             img(src='@/assets/curso/temas/t3/aco3.png', alt='')
 
         .col-lg-6
@@ -153,7 +152,7 @@
                   td Disponibilidad de hierro (Fe), zinc (Zn), cobre (Cu), manganeso (Mn), boro (B) y molibdeno (Mo).
                   td Participan en procesos fisiológicos esenciales.
 
-      .row.justify-content-center(titulo="Niveles de interpretación")
+      .row.justify-content-center(titulo="Niveles de interpretación")(data-aos="zoom-in-left")
         .col-lg-6.mb-4.mb-md-0.mb-3
           p Los resultados del laboratorio generalmente se expresan mediante categorías que facilitan la toma de decisiones.
 
@@ -196,11 +195,12 @@
 
           p Nota: cada laboratorio establece rangos de referencia de acuerdo con la metodología utilizada y las condiciones de la región.
 
-        .col-lg-6.col-11.col-md-10
+        .col-lg-6.col-9.col-md-10.d-none.d-lg-block
+
           figure
             img(src='@/assets/curso/temas/t3/aco4.png', alt='')
 
-      .row.justify-content-center(titulo="Interpretación integral del reporte")
+      .row.justify-content-center(titulo="Interpretación integral del reporte")(data-aos="zoom-in-left")
         .col-lg-6.mb-3
           p La interpretación del análisis de suelo no debe realizarse evaluando cada parámetro de manera independiente. Es necesario analizar la relación existente entre el pH, la materia orgánica, la disponibilidad de nutrientes, la conductividad eléctrica y la capacidad de intercambio catiónico, ya que estos factores interactúan entre sí y determinan el comportamiento del suelo frente al desarrollo de los cultivos.
 
@@ -216,7 +216,8 @@
           p.mb-0 • Incrementar la productividad de los cultivos.
           p.mb-0 • Disminuir el impacto ambiental asociado al uso inadecuado de fertilizantes.
 
-        .col-lg-6.col-11.col-md-10
+        .col-lg-6.col-11.col-md-10.d-none.d-lg-block
+
           figure
             img(src='@/assets/curso/temas/t3/aco5.png', alt='')
 
@@ -224,18 +225,18 @@
     #t_3_1.titulo-segundo.mb-4(data-aos="zoom-in-left")
       h2 3.1  Correctivos agrícolas
 
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-lg-12
         img(src='@/assets/curso/temas/t3/img06.png', alt='')
 
     p Los correctivos agrícolas son insumos utilizados para recuperar o mejorar las condiciones del suelo cuando estas limitan el crecimiento y desarrollo de los cultivos. Su empleo busca restablecer un ambiente adecuado para el funcionamiento del sistema radicular, favoreciendo el equilibrio de las propiedades químicas del suelo y creando condiciones que permitan un mejor aprovechamiento de los nutrientes presentes de forma natural o suministrados mediante la fertilización. De esta manera, los correctivos contribuyen a mantener la capacidad productiva del suelo y a mejorar la eficiencia de las prácticas de manejo agronómico. 
 
-    .row.justify-content-center.align-items-center.mb-3
-      .col-lg-3.mb-3
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
+      .col-lg-3.mb-3.col-8.col-md-6
         img(src='@/assets/curso/temas/t3/img07.png', alt='')
       .col-lg-9.mb-3
         .row.justify-content-center.align-items-center.bg03.p-4.mb-3
-          .col-lg-4.mb-3
+          .col-lg-4.mb-3.col-8.col-md-6
             img(src='@/assets/curso/temas/t3/img08.svg', alt='')
           .col-lg-8
             p.mb-0 La necesidad de utilizar un correctivo debe establecerse a partir de la interpretación de los resultados del análisis de suelo, ya que este proporciona información objetiva sobre las condiciones de fertilidad y los factores que pueden restringir el desarrollo de los cultivos. La selección del material más adecuado depende de las características del suelo, del sistema de producción y de los requerimientos del cultivo, por lo que su utilización debe responder a criterios técnicos y no a aplicaciones rutinarias o generalizadas.
@@ -246,14 +247,14 @@
 
     p A continuación, se presentan los principales grupos de correctivos agrícolas utilizados en los sistemas de producción:
     
-    .correctivo-calcareo.mb-3
+    .correctivo-calcareo.mb-3(data-aos="zoom-in-left")
       img(src='@/assets/curso/temas/t3/mata.svg', alt='')
       span Correctivos calcáreos
 
     p Los correctivos calcáreos son materiales ricos en calcio que se utilizan principalmente para disminuir la acidez del suelo mediante el incremento gradual del pH. Al reducir la acidez, mejoran la disponibilidad de nutrientes esenciales para las plantas y disminuyen la toxicidad ocasionada por elementos como el aluminio y el manganeso, frecuentes en suelos ácidos. Además, favorecen el desarrollo del sistema radicular, incrementan la actividad de los microorganismos benéficos y mejoran la eficiencia de los fertilizantes aplicados.
     p Entre los correctivos calcáreos más utilizados se encuentran:
 
-    .row.align-items-center.justify-content-center.mb-4
+    .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.color-secundario.p-3.tarjeta001
           .row.justify-content-center.mb-3
@@ -290,14 +291,14 @@
           h5.text-center Hidróxido de calcio [Ca(OH)₂]
           p.mb-0 Denominado cal hidratada o apagada, se obtiene a partir de la reacción de la cal viva con agua. Su acción correctiva es rápida y eficaz; sin embargo, debe utilizarse en dosis controladas y bajo recomendación técnica para evitar alteraciones excesivas del pH.
 
-    .correctivo-calcareo.mb-3
+    .correctivo-calcareo.mb-3(data-aos="zoom-in-left")
       img(src='@/assets/curso/temas/t3/mata.svg', alt='')
       span Correctivos magnésicos
     
     p Los correctivos magnésicos se emplean cuando el suelo presenta simultáneamente problemas de acidez y bajos contenidos de magnesio, un macronutriente secundario indispensable para la formación de clorofila y el adecuado funcionamiento de los procesos de fotosíntesis. Estos materiales permiten corregir ambas limitantes de manera simultánea, favoreciendo el crecimiento y desarrollo de los cultivos.
     p El principal correctivo de este grupo es la cal dolomítica; material compuesto por carbonato de calcio y carbonato de magnesio que neutraliza la acidez del suelo y suministra magnesio disponible para las plantas.
 
-    .correctivo-calcareo.mb-3
+    .correctivo-calcareo.mb-3(data-aos="zoom-in-left")
       img(src='@/assets/curso/temas/t3/mata.svg', alt='')
       span Enmiendas orgánicas 
     
@@ -305,7 +306,7 @@
 
     p Entre las principales enmiendas orgánicas se encuentran:
 
-    SlyderF(columnas="col-lg-6 col-xl-4").mb-3
+    SlyderF(columnas="col-lg-6 col-xl-4").mb-3(data-aos="zoom-in-left")
       .tarjeta.bg04.p-4
         .row.justify-content-center.mb-3
           .col-lg-8.col-8.col-md-4
@@ -343,7 +344,7 @@
    
     p Estas enmiendas favorecen la formación de agregados, incrementan la capacidad de retención de agua, mejoran la aireación y estimulan la actividad biológica, contribuyendo al mantenimiento de la fertilidad a largo plazo.
 
-    .correctivo-calcareo.mb-3
+    .correctivo-calcareo.mb-3(data-aos="zoom-in-left")
       img(src='@/assets/curso/temas/t3/mata.svg', alt='')
       span Otros correctivos agrícolas
     
@@ -394,12 +395,12 @@
         p.mb-0 • Mezclas comerciales enriquecidas con compost.
         p.mb-0 • Fertilizantes minerales incorporados a materia orgánica estabilizada.
 
-    .correctivo-calcareo.mb-3
+    .correctivo-calcareo.mb-3(data-aos="zoom-in-left")
       img(src='@/assets/curso/temas/t3/mata.svg', alt='')
       span Según el número de nutrientes
     p Los fertilizantes se clasifican de acuerdo con la fuente de donde provienen los nutrientes.
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-lg-8.mb-3 
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos='fade-right')
           .row.justify-content-center(titulo="Fertilizantes simples")
@@ -418,30 +419,231 @@
               p.mb-0 • NPK 15 - 15 - 15.
               p.mb-0 • NPK 10 - 30 - 10.
               p.mb-0 • NPK 18 - 18 - 18.
-      .col-lg-4
+      .col-lg-4.col-9.col-md-6
         img(src='@/assets/curso/temas/t3/img09.png', alt='')
 
 
-    .correctivo-calcareo.mb-3
+    .correctivo-calcareo.mb-3.p-3(data-aos="zoom-in-left")
       img(src='@/assets/curso/temas/t3/mata.svg', alt='')
       span Según su estado físico o presentación
     p La presentación del fertilizante influye en la forma de aplicación, el almacenamiento y la velocidad de disponibilidad de los nutrientes.
 
 
+    .row.align-items-center.mb-2(data-aos="zoom-in-left")
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4
+          .row.justify-content-center.mb-3
+            .col-12
+              h4.text-center Granulados
+              p.mb-0 Se presentan en forma de gránulos sólidos que facilitan su distribución manual o mecanizada.
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4
+          .row.justify-content-center.mb-3
+            .col-12
+              h4.text-center Cristalinos
+              p.mb-0 Son fertilizantes sólidos de alta pureza que se disuelven fácilmente en agua.
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4
+          .row.justify-content-center.mb-3
+            .col-12
+              h4.text-center Líquidos
+              p.mb-0 Se comercializan como soluciones o suspensiones y pueden aplicarse mediante sistemas de riego o equipos de aspersión.
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4
+          .row.justify-content-center.mb-3
+            .col-12
+              h4.text-center Solubles
+              p.mb-0 Se disuelven completamente en agua y son utilizados principalmente en fertirriego o fertilización foliar.
+   
+    p Los fertilizantes proporcionan los nutrientes esenciales necesarios para el crecimiento, desarrollo y producción de los cultivos. Dependiendo de su formulación, pueden aportar macronutrientes, requeridos en mayores cantidades, y micronutrientes, necesarios en menores concentraciones, pero igualmente indispensables para el adecuado funcionamiento fisiológico de las plantas.
+    p Los principales nutrientes suministrados son:
+
+    .fondot3.p-4.mb-4(data-aos="zoom-in-left")
+      .row.justify-content-center.align-items-center
+        .col-lg-4.mb-3.col-9.col-md-7
+          img(src='@/assets/curso/temas/t3/img11.png', alt='')
+        .col-lg-6
+          .row.justify-content-center.align-items-center
+            .col-lg-6.mb-3.text-white
+              ul.lista-ul--color
+                li.d-flex
+                  i.fas.fa-angle-right22
+                  | Nitrógeno (N).
+                li.d-flex
+                  i.fas.fa-angle-right22
+                  | Fósforo (P).
+                li.d-flex
+                  i.fas.fa-angle-right22
+                  | Potasio (K).
+                li.d-flex
+                  i.fas.fa-angle-right22
+                  | Calcio (Ca).
+                li.d-flex
+                  i.fas.fa-angle-right22
+                  | Magnesio (Mg).
+                li.d-flex
+                  i.fas.fa-angle-right22
+                  | Azufre (S).
+
+            .col-lg-6.mb-3.text-white
+              ul.lista-ul--color
+                li.d-flex
+                  i.fas.fa-angle-right22
+                  | Hierro (Fe).
+                li.d-flex
+                  i.fas.fa-angle-right22
+                  | Zinc (Zn).
+                li.d-flex
+                  i.fas.fa-angle-right22
+                  | Boro (B).
+                li.d-flex
+                  i.fas.fa-angle-right22
+                  | Manganeso (Mn).
+                li.d-flex
+                  i.fas.fa-angle-right22
+                  | Cobre (Cu).
+                li.d-flex
+                  i.fas.fa-angle-right22
+                  | Molibdeno (Mo).
+
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
+      .col-lg-5.mb-3.col-9.col-md-8
+        img(src='@/assets/curso/temas/t3/img12.png', alt='')
+      .col-lg-7
+        ul.lista-ul--color
+          li.d-flex
+            i.fas.fa-angle-right22
+            | Suministrar nutrientes esenciales para el desarrollo de las plantas.
+          li.d-flex
+            i.fas.fa-angle-right22
+            | Favorecer el crecimiento vegetativo y la formación de biomasa.
+          li.d-flex
+            i.fas.fa-angle-right22
+            | Estimular el desarrollo del sistema radicular.
+          li.d-flex
+            i.fas.fa-angle-right22
+            | Promover la floración, fructificación y llenado de frutos o granos.
+          li.d-flex
+            i.fas.fa-angle-right22
+            | Corregir deficiencias nutricionales identificadas mediante el análisis de suelo o el diagnóstico del cultivo.
+          li.d-flex
+            i.fas.fa-angle-right22
+            | Incrementar el rendimiento y la calidad de la producción agrícola.
+          li.d-flex
+            i.fas.fa-angle-right22
+            | Mantener el equilibrio nutricional del suelo cuando se aplican de forma racional.
+          li.d-flex
+            i.fas.fa-angle-right22
+            | Mejorar la eficiencia en el aprovechamiento del agua y otros insumos agrícolas.
+          li.d-flex
+            i.fas.fa-angle-right22
+            | Contribuir a la sostenibilidad de los sistemas productivos mediante programas de fertilización técnicamente planificados.
+
+      .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
+        .col-lg-8.mb-3 
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Tabla 9.
+            span Función de los principales nutrientes en las plantas
+
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-12.mb-3
+              .tabla-a.color-primario
+                table
+                  thead
+                    tr
+                      th.text-izq.bg10.w-25 Nutriente
+                      th.text-izq.bg10 Principales funciones
+                      th.text-izq.bg10 Síntomas generales de deficiencia
+                  tbody
+                    tr
+                      td #[b Nitrógeno (N)]
+                      td Favorece el crecimiento vegetativo, la formación de hojas y tallos y la síntesis de proteínas y clorofila.
+                      td Hojas amarillentas, crecimiento lento y bajo vigor.
+
+                    tr
+                      td #[b Fósforo (P)]
+                      td Estimula el desarrollo del sistema radicular, la floración, la formación de semillas y la transferencia de energía en la planta.
+                      td Desarrollo radicular deficiente, crecimiento reducido y coloración púrpura en algunas especies.
+
+                    tr
+                      td #[b Potasio (K)]
+                      td Regula el balance hídrico, mejora la calidad de frutos, incrementa la resistencia al estrés y favorece el transporte de azúcares.
+                      td Bordes de hojas secos o quemados y menor calidad de frutos.
+
+                    tr
+                      td #[b Calcio (Ca)]
+                      td Fortalece las paredes celulares, favorece el crecimiento de tejidos jóvenes y mejora la estabilidad estructural de la planta.
+                      td Muerte de brotes jóvenes, deformación de hojas y frutos.
+
+                    tr
+                      td #[b Magnesio (Mg)]
+                      td Componente central de la clorofila; participa en la fotosíntesis y en la activación de numerosas enzimas.
+                      td Clorosis entre las nervaduras de hojas maduras.
+
+                    tr
+                      td #[b Azufre (S)]
+                      td Interviene en la síntesis de proteínas, vitaminas y enzimas, además de participar en el metabolismo del nitrógeno.
+                      td Amarillamiento uniforme de hojas jóvenes y crecimiento limitado.
+
+                    tr
+                      td #[b Micronutrientes (Fe, Zn, B, Mn, Cu y Mo)]
+                      td Participan en procesos metabólicos, actividad enzimática, formación de tejidos, polinización y crecimiento vegetal.
+                      td Los síntomas varían según el nutriente, incluyendo clorosis, deformaciones y disminución del crecimiento.
+        .col-lg-4.col-8.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t3/img13.png', alt='')
+
+    separador
+    #t_3_3.titulo-segundo.mb-4(data-aos="zoom-in-left")
+      h2 3.3  Relación entre análisis de suelo y fertilización
+
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
+      .col-lg-12.mb-3
+        img(src='@/assets/curso/temas/t3/img14.png', alt='')
+      p El análisis de suelo constituye la principal herramienta para planificar programas de fertilización técnicamente sustentados. Sus resultados permiten conocer la disponibilidad de nutrientes, identificar deficiencias o excesos y seleccionar las alternativas de manejo más apropiadas para cada cultivo.
+      p Una fertilización basada en análisis de suelo contribuye a mejorar la eficiencia en el uso de los nutrientes, optimizar la inversión en insumos y reducir los riesgos de contaminación asociados al uso excesivo de fertilizantes.
 
 
+    .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Tabla 10.
+          span Relación entre el análisis de suelo y la toma de decisiones
 
+        .row.justify-content-center.align-items-center.mb-2
+          .col-lg-12.mb-3
+            .tabla-a.color-primario
+              table
+                thead
+                  tr
+                    th.text-izq.bg10.w-25 Resultado del análisis
+                    th.text-izq.bg10 Decisión técnica
+                tbody
+                  tr
+                    td #[b pH bajo]
+                    td Aplicar correctivos calcáreos si es recomendado.
 
+                  tr
+                    td #[b Baja materia orgánica]
+                    td Incorporar enmiendas orgánicas.
 
+                  tr
+                    td #[b Deficiencia de fósforo]
+                    td Seleccionar fertilizantes fosfatados.
 
+                  tr
+                    td #[b Deficiencia de potasio]
+                    td Aplicar fertilizantes potásicos.
 
+                  tr
+                    td #[b Deficiencia de nitrógeno]
+                    td Implementar un plan de fertilización nitrogenada.
 
-
-
-
-
-
-
+                  tr
+                    td #[b Buen nivel de fertilidad]
+                    td Mantener un programa de fertilización de sostenimiento.
 
 
 

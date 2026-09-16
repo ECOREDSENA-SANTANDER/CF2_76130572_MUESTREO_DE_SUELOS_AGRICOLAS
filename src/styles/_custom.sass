@@ -143,7 +143,11 @@ figcaption
 
 .tarjeta--boton.color-secundario:hover 
   background-color: #EEFAE9
-
+.tarjeta--boton.color-primario:active, .tarjeta--boton.color-primario:focus, .tarjeta--boton.color-primario:hover 
+  background-color: #EEFAE9
+.tarjeta--boton.color-primario:hover h4,
+.tarjeta--boton.color-primario:hover p 
+  color: #12263F !important
 .tarjeta--boton.color-secundario:hover h3,
 .tarjeta--boton.color-secundario:hover p 
   color: #12263F !important
@@ -179,6 +183,9 @@ figcaption
 .fa-angle-right2
   content: url('../assets/curso/temas/t1/hoja.svg')
   align-self: flex-start !important
+.fa-angle-right22
+  content: url('../assets/curso/temas/t3/mata2.svg')
+  align-self: flex-start !important
 .fondo01
   background-image: url('../assets/curso/temas/t1/fondo1.png')
   background-position: center
@@ -191,7 +198,15 @@ figcaption
   @media screen and (max-width: 767px)
     margin-inline: -1.4rem  
     background-size: cover 
-
+.fondot3
+  background-image: url('../assets/curso/temas/t3/fondot3.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  @media screen and (max-width: 992px)
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    background-size: cover 
 .w-card-icon
   width: min-content
   z-index: 1
