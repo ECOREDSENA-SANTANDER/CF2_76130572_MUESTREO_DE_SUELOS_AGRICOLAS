@@ -594,46 +594,280 @@
 
     p Asimismo, durante la aplicación deben cumplirse las recomendaciones técnicas del fabricante, las buenas prácticas agrícolas, las normas de seguridad y salud en el trabajo y los criterios ambientales establecidos para evitar riesgos sobre las personas, los cultivos y los recursos naturales.
 
+    .row.justify-content-start.mb-3(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/agro.svg")
+            h3.bg07.py-2.w-card-text.text-white Objetivos de una aplicación técnica
+    p La correcta aplicación de correctivos y fertilizantes busca:
+
+    .fondot3.p-4.mb-4(data-aos="zoom-in-left")
+      .row.justify-content-center.align-items-center
+        .col-lg-4.mb-3.col-9.col-md-7
+          img(src='@/assets/curso/temas/t4/img18.svg', alt='')
+        .col-lg-7.text-white
+            ul.lista-ul--color
+              li.d-flex
+                i.fas.fa-angle-right22
+                | Garantizar la disponibilidad de nutrientes para el cultivo.
+              li.d-flex
+                i.fas.fa-angle-right22
+                | Mejorar la eficiencia del aprovechamiento de los fertilizantes.
+              li.d-flex
+                i.fas.fa-angle-right22
+                | Corregir oportunamente las limitaciones químicas del suelo.
+              li.d-flex
+                i.fas.fa-angle-right22
+                | Reducir las pérdidas de nutrientes hacia el ambiente.
+              li.d-flex
+                i.fas.fa-angle-right22
+                | Optimizar la inversión en insumos agrícolas.
+              li.d-flex
+                i.fas.fa-angle-right22
+                | Favorecer el crecimiento, desarrollo y rendimiento de los cultivos.
+              li.d-flex
+                i.fas.fa-angle-right22
+                | Conservar la fertilidad del suelo a largo plazo.
+
+    .row.justify-content-start.mb-3(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/agro.svg")
+            h3.bg07.py-2.w-card-text.text-white Factores que influyen en la aplicación de insumos
+    p Antes de realizar cualquier aplicación deben evaluarse diferentes factores técnicos que condicionan la eficiencia del proceso. Entre los más importantes se encuentran:
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-5.mb-3
+        ul.lista-ul--color
+          li.d-flex.mb-0
+            i.fas.fa-angle-right22
+            | Recomendación técnica derivada del análisis de suelo.
+          li.d-flex.mb-0
+            i.fas.fa-angle-right22
+            | Estado nutricional del cultivo.
+          li.d-flex.mb-0
+            i.fas.fa-angle-right22
+            | Etapa fenológica de la planta.
+          li.d-flex.mb-0
+            i.fas.fa-angle-right22
+            | Humedad del suelo.
+          li.d-flex.mb-0
+            i.fas.fa-angle-right22
+            | Condiciones climáticas.
+          li.d-flex.mb-0
+            i.fas.fa-angle-right22
+            | Tipo de fertilizante o correctivo.
+          li.d-flex.mb-0
+            i.fas.fa-angle-right22
+            | Solubilidad del producto.
+          li.d-flex.mb-0
+            i.fas.fa-angle-right22
+            | Método de aplicación.
+          li.d-flex.mb-0
+            i.fas.fa-angle-right22
+            | Textura del suelo.
+          li.d-flex.mb-0
+            i.fas.fa-angle-right22
+            | Pendiente del terreno.
+          li.d-flex.mb-0
+            i.fas.fa-angle-right22
+            | Sistema de producción.
+          li.d-flex.mb-0
+            i.fas.fa-angle-right22
+            | Disponibilidad de maquinaria o equipos de aplicación.
+      .col-lg-7
+        img(src="@/assets/curso/temas/t4/img19.png")
+
+    .cajon.color-primario.p-3.mb-4
+      p.mb-0 #[b Nota:] cada uno de estos factores influye sobre la eficiencia de absorción de los nutrientes y debe considerarse antes de programar las labores de fertilización.
 
 
+    .row.justify-content-start.mb-3(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/agro.svg")
+            h3.bg07.py-2.w-card-text.text-white Métodos de aplicación
+    p La selección del método de aplicación depende del tipo de cultivo, del fertilizante empleado, del sistema de producción y de las recomendaciones técnicas emitidas para cada caso.
 
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      h5 Tabla 13.
+      span Métodos de aplicación
 
+    .row.justify-content-center.align-items-center.mb-2
+      .col-lg-12.mb-3
+        .tabla-a.color-primario
+          table
+            thead
+              tr
+                th.text-izq.bg10 Método de aplicación
+                th.text-izq.bg10 Descripción técnica
+                th.text-izq.bg10 Procedimiento general
+                th.text-izq.bg10 Ventajas
+                th.text-izq.bg10 Limitaciones
+                th.text-izq.bg10 Uso recomendado
+            tbody
+              tr
+                td #[b Al voleo]
+                td Consiste en distribuir el fertilizante o correctivo de manera uniforme sobre toda la superficie del terreno, ya sea manualmente o mediante equipos mecánicos. Generalmente, el producto aplicado se incorpora posteriormente al suelo mediante labores de preparación o por efecto de la lluvia o el riego.
+                td El insumo se distribuye de forma homogénea sobre el lote procurando cubrir toda la superficie y evitando acumulaciones en un mismo sitio.
+                td
+                  | • Permite cubrir grandes extensiones en poco tiempo.
+                  br
+                  | • Fácil ejecución.
+                  br
+                  | • Adecuado para la aplicación de correctivos agrícolas.
+                  br
+                  | • Puede realizarse con equipos manuales o mecanizados.
+                td
+                  | • Menor eficiencia cuando el fertilizante permanece sobre la superficie.
+                  br
+                  | • Mayor riesgo de pérdidas por volatilización, lixiviación o escorrentía.
+                  br
+                  | • Requiere buena uniformidad de distribución.
+                td Correctivos agrícolas, fertilización de establecimiento, pasturas y cultivos extensivos antes de la siembra.
 
+              tr
+                td #[b Localizada]
+                td Consiste en depositar el fertilizante cerca del sistema radicular de la planta, sin que exista contacto directo con las raíces o con la semilla, favoreciendo un mayor aprovechamiento de los nutrientes.
+                td El fertilizante se coloca en pequeños hoyos o franjas cercanas a la planta, respetando la distancia recomendada según el cultivo.
+                td
+                  | • Mayor eficiencia en la absorción de nutrientes.
+                  br
+                  | • Reduce pérdidas por lixiviación y volatilización.
+                  br
+                  | • Disminuye la cantidad total de fertilizante requerida.
+                  br
+                  | • Favorece el crecimiento inicial del cultivo.
+                td
+                  | • Requiere mayor precisión.
+                  br
+                  | • Demanda más tiempo de aplicación.
+                  br
+                  | • Puede causar fitotoxicidad si el fertilizante queda muy cerca de la raíz.
+                td Hortalizas, cultivos permanentes, viveros, sistemas intensivos y agricultura de precisión.
 
+              tr
+                td #[b En bandas]
+                td El fertilizante se aplica formando bandas o líneas paralelas al surco de siembra, ubicándolo a una distancia adecuada de la semilla o del sistema radicular.
+                td Se deposita el fertilizante antes o durante la siembra siguiendo las líneas del cultivo, procurando mantener una profundidad y separación uniformes.
+                td
+                  | • Incrementa la disponibilidad de nutrientes en la zona radicular.
+                  br
+                  | • Favorece el establecimiento del cultivo.
+                  br
+                  | • Reduce pérdidas respecto a la aplicación al voleo.
+                  br
+                  | • Mejora la eficiencia del fósforo y otros nutrientes poco móviles.
+                td
+                  | • Requiere equipos adecuados o mayor precisión manual.
+                  br
+                  | • Una ubicación inadecuada puede afectar la germinación o las raíces.
+                td Maíz, arroz, fríjol, sorgo, algodón y otros cultivos transitorios sembrados en hileras.
 
+              tr
+                td #[b Alrededor de la planta]
+                td El fertilizante se distribuye formando un círculo alrededor del área de mayor desarrollo de las raíces absorbentes, evitando el contacto directo con el tallo.
+                td La aplicación se realiza alrededor de la proyección de la copa o en la zona de absorción radicular, incorporando ligeramente el fertilizante cuando sea necesario.
+                td
+                  | • Favorece la absorción de nutrientes.
+                  br
+                  | • Reduce desperdicios.
+                  br
+                  | • Permite ajustar las dosis por planta.
+                  br
+                  | • Facilita fertilizaciones de mantenimiento.
+                td
+                  | • Mayor demanda de mano de obra.
+                  br
+                  | • No es práctico para cultivos de alta densidad.
+                  br
+                  | • La ubicación incorrecta reduce la eficiencia.
+                td Café, cacao, cítricos, aguacate, mango y demás frutales o cultivos perennes.
 
+              tr
+                td #[b Fertirriego]
+                td Consiste en suministrar fertilizantes completamente solubles mediante sistemas de riego presurizado, distribuyendo simultáneamente agua y nutrientes directamente a la zona radicular.
+                td El fertilizante se disuelve en el agua de riego y se incorpora al sistema mediante inyectores o tanques fertilizadores, siguiendo la programación establecida.
+                td
+                  | • Alta eficiencia en el uso de nutrientes.
+                  br
+                  | • Dosificación muy precisa.
+                  br
+                  | • Permite fraccionar las aplicaciones.
+                  br
+                  | • Reduce pérdidas y costos de mano de obra.
+                  br
+                  | • Facilita la automatización del proceso.
+                td
+                  | • Requiere infraestructura especializada.
+                  br
+                  | • Utiliza únicamente fertilizantes solubles.
+                  br
+                  | • Demanda mantenimiento y limpieza del sistema de riego.
+                  br
+                  | • Mayor inversión inicial.
+                td Sistemas tecnificados con riego por goteo, microaspersión, agricultura protegida y cultivos de alto valor comercial.
+      .row.justify-content-start.mb-3(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/agro.svg")
+            h3.bg07.py-2.w-card-text.text-white Recomendaciones generales durante la aplicación
 
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade-up")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require_src('@/assets/curso/temas/t4/img20.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 La eficiencia de los correctivos agrícolas y fertilizantes no depende únicamente de la dosis calculada, sino también de la forma en que estos son aplicados en el campo. Una aplicación técnicamente adecuada permite que los nutrientes lleguen a la zona de mayor actividad radicular, favoreciendo su absorción y reduciendo las pérdidas ocasionadas por factores ambientales o por prácticas inadecuadas de manejo. 
+          br
+          br
+          | Antes de iniciar la aplicación, es importante verificar que la dosis corresponda a la recomendación técnica obtenida a partir del análisis de suelo o del plan de fertilización establecido para el cultivo. Asimismo, los equipos o implementos de aplicación deben revisarse y calibrarse previamente para asegurar una distribución uniforme del insumo en toda el área de trabajo, evitando zonas con exceso o deficiencia de fertilización.
+       
+    p Las condiciones del terreno y del clima también influyen en la eficiencia de la aplicación. Se recomienda realizar las labores cuando el suelo presente una humedad adecuada que favorezca la incorporación y disponibilidad de los nutrientes. Igualmente, deben evitarse aplicaciones durante lluvias intensas o en presencia de fuertes vientos, ya que estas condiciones pueden ocasionar pérdidas por escorrentía, lixiviación o deriva del producto.
 
+    .cajon.color-primario.p-4.mb-4
+      p.mb-0 Durante la distribución del fertilizante o correctivo es necesario respetar las distancias recomendadas respecto a las semillas, plántulas o raíces, con el fin de evitar daños por altas concentraciones de nutrientes. De igual manera, no deben mezclarse productos incompatibles sin verificar previamente su compatibilidad química y física, ya que esto puede reducir su eficacia o afectar la calidad de la aplicación.
 
+    .row.justify-content-center.align-items-center.mb-3(data-aos='fade-right')
+        .col-lg-5.mb-3.col-md-9
+          img(src="@/assets/curso/temas/t4/img21.png")
+        .col-lg-7
+          .row
+            .col-lg-2.mb-3.col-4.col-md-3
+              img(src="@/assets/curso/temas/t4/img22.svg")
+            .col-lg-10
+              p Por tanto, es conveniente registrar la información correspondiente a cada aplicación, incluyendo la fecha, el producto utilizado, la dosis aplicada y el área intervenida. Este registro facilita el seguimiento del manejo de la fertilidad del suelo, permite evaluar los resultados obtenidos y constituye un apoyo para la planificación de futuras labores de fertilización. Los insumos que no sean utilizados deben almacenarse de acuerdo con las recomendaciones del fabricante para conservar sus propiedades y garantizar su adecuado uso en aplicaciones posteriores. 
 
+    .row.justify-content-start.mb-3(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/temas/t1/agro.svg")
+            h3.bg07.py-2.w-card-text.text-white Beneficios de una aplicación técnica adecuada
 
+    .row.justify-content-center.mb-3(data-aos="zoom-in-left")
+      .col-lg-3.mb-3.col-8.col-md-6
+        img(src='@/assets/curso/temas/t4/img23.png', alt='')
+      .col-lg-9.mb-3
+        .row.justify-content-center.align-items-center.bg03.p-3.mb-3
+          .col-lg-4.mb-3.col-8.col-md-6
+            img(src='@/assets/curso/temas/t4/img25.svg', alt='')
+          .col-lg-8
+            p.mb-0 La aplicación técnica de correctivos agrícolas y fertilizantes permite maximizar el aprovechamiento de los nutrientes por parte de los cultivos, contribuyendo al desarrollo adecuado de las plantas y al incremento de la productividad. Cuando los insumos se aplican en la dosis, el momento y el lugar adecuados, se mejora la eficiencia de la fertilización y se reducen las pérdidas ocasionadas por procesos como la lixiviación, la volatilización o la escorrentía. 
+        p Otro beneficio importante es la optimización de los costos de producción, ya que el uso racional de los insumos evita aplicaciones innecesarias y mejora el rendimiento de la inversión realizada en fertilización. Además, una distribución uniforme de los nutrientes favorece un crecimiento más homogéneo de los cultivos, facilita las labores de manejo agronómico y contribuye a obtener cosechas de mejor calidad.
 
+    .row.justify-content-center.align-items-center.mb-2(data-aos='fade-right')
+        .col-lg-7.mb-3
+          .row
+            .col-lg-2.mb-3.col-4.col-md-3
+              img(src="@/assets/curso/temas/t4/img27.svg")
+            .col-lg-10
+              p La aplicación técnica también favorece la conservación de la fertilidad del suelo al mantener un equilibrio adecuado en el suministro de nutrientes y reducir el riesgo de degradación ocasionado por aplicaciones excesivas o deficientes. Asimismo, disminuye la posibilidad de contaminación de los recursos naturales por el uso inadecuado de fertilizantes, promoviendo sistemas de producción más eficientes y sostenibles.
+          p De esta manera, el registro de las aplicaciones y el seguimiento de las labores realizadas proporcionan información valiosa para evaluar la respuesta de los cultivos, ajustar los planes de fertilización y mejorar la planificación de los ciclos productivos siguientes. Esto fortalece la toma de decisiones basada en criterios técnicos.
+        .col-lg-5.mb-3.col-md-9
+          img(src="@/assets/curso/temas/t4/img26.png")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .cajon.color-primario.p-4
+      p.mb-0 La aplicación articulada de los procedimientos de muestreo, conservación, análisis, dosificación y suministro de insumos permite tomar decisiones técnicas orientadas al manejo eficiente de la fertilidad del suelo. Los conocimientos y habilidades desarrollados en este componente fortalecen la capacidad del aprendiz para ejecutar prácticas agrícolas responsables, optimizar el uso de correctivos y fertilizantes, favorecer la productividad de los cultivos y contribuir a la sostenibilidad de los sistemas agrícolas.
 
 
 
