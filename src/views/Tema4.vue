@@ -574,7 +574,7 @@
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-acento-botones(
               texto="Pódcast:"
-              :audio="require_src('@/assets/curso/temas/t4/podcast.png')"
+              :audio="require_src('@/assets/curso/temas/t4/podcast.mp3')"
             )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
             p.mt-3.mb-0
